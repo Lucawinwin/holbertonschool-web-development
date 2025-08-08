@@ -90,7 +90,7 @@ header nav a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('C:\Users\lucaw\OneDrive\Images\dame contente.png');
+    background-image: url('/css_advanced/images/background.png');
     background-position: center -40px;
     background-size: 1920px auto;
     background-repeat: no-repeat;
@@ -288,17 +288,17 @@ header nav a:hover {
 }
 
 .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 64px;
-    height: 64px;
-    background-image: url('play.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: rgb(48, 45, 48);
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 /* Video Content Section */
