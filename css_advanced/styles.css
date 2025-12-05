@@ -1,0 +1,384 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro/SourceSansPro-Regular.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    margin: auto;
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1093px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 1103px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.banner h1 {
+    display: flex;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.banner-desc {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 20px #00000080;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.pro-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.pro-container h2 {
+    font-size: 32px;
+    font-weight: 100;
+    width: 291px;
+    height: 40px;
+}
+
+.highlight {
+    font-weight: bold;
+    color:#C271FF
+}
+
+.pro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1009px;
+    height: 237px;
+}
+
+.pro-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 237px;
+    width: 150px;
+    margin-top: 10rem;
+}
+
+.pro-card img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.pro-card h3 {
+    font-size: 18px;
+}
+
+.pro-card p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    height: 25rem;
+    font-size: 22px;
+}
+
+.quote img {
+    width: 160px;
+    height: 160px;
+    margin-right: 3rem;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote h4 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 624px;
+}
+
+.player {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.player-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video h1 {
+    color: #071629;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 5rem;
+}
+
+.video h2 {
+    color: #071629;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.video p {
+    color: #07162980;
+}
+
+.video h3, .video-rating p {
+    color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.video-container,
+.video-profil,
+.video-rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.video-profil {
+    align-items: center;
+}
+
+.video-profil img {
+    margin-right: 1rem;
+}
+
+.video h2,
+.video p,
+.video-profil,
+.video-rating {
+    margin: 1rem;
+}
+
+.video-rating {
+    justify-content: space-between;
+}
+
+.video-rating p {
+    margin: 0rem;
+}
+
+.membership {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 502px;
+    background-color: #071629;
+    color: #FFFFFF;
+}
+
+.membership h1 {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.membership img {
+    margin-bottom: 2rem;
+}
+
+.membership-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.membership-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 5rem 0 5rem;
+}
+
+.membership-card h2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.membership-card p {
+    font-size: 14px;
+    line-height: 175%;
+    margin: 1rem;
+}
+
+.membership button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #071629;
+}
+
+.faq h1 {
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 5rem;
+}
+
+.faq h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.faq p {
+    font-size: 14px;
+    color: #07162980;
+    line-height: 150%;
+    margin-top: 2rem;
+}
+
+.faq-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.faq-block {
+    margin: 5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #071629;
+    height: 249px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF80;
+}
+
+footer p {
+    position: absolute;
+    margin-top: 10rem;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.footerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 130px;
+}
